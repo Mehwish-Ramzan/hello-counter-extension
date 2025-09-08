@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Hello Counter",
+  "version": "1.0",
+  "description": "A simple Hello World + Counter Chrome Extension.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icons8-hello-67.png",
+      "64": "icons8-hello-67.png",
+      "32": "icons8-hello-67.png"
+    }
+  },
+  "permissions": ["storage"]
+}
